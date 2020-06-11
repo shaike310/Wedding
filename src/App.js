@@ -1,24 +1,19 @@
 import React from 'react';
+import Gallery from "react-photo-gallery";
 import logo from './logo.svg';
 import './App.css';
+import { GalleryExpander } from './GalleryExpander';
+
+
+ 
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+   <GalleryExpander/>
+
     </div>
   );
 }
