@@ -2,6 +2,8 @@ import React from 'react';
 import Gallery from "react-photo-gallery";
 import { render } from '@testing-library/react';
 
+import Collapsible from 'react-collapsible';
+
 const photos = [
     {
       src: 'http://example.com/example/img1.jpg',
@@ -18,7 +20,12 @@ const photos = [
   
 export const GalleryExpander = function GalleryBox() {
     return (
-        <Gallery photos={photos} />
+      <Collapsible trigger="!בא לכם לראות קצת תמונות שלנו בזמן שמצפים לחתונה?? אז תלחצו עליי">
+      <p>:)ברוררר שכן</p>
+      <Gallery photos={photos} />
+    </Collapsible>
+
+      
     )
 }
 
