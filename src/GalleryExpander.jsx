@@ -20,7 +20,7 @@ const photos = [
   
 export const GalleryExpander = function GalleryBox() {
     return (
-      <Collapsible trigger="!בא לכם לראות קצת תמונות שלנו בזמן שמצפים לחתונה?? אז תלחצו עליי">
+      <Collapsible trigger="רגע.. בא לכם לראות קצת תמונות שלנו בזמן שמצפים לחתונה?? תלחצו עליי">
       <p>:)ברוררר שכן</p>
       <Gallery photos={photos} />
     </Collapsible>
