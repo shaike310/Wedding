@@ -1,5 +1,7 @@
 import React from 'react';
 import Countdown from 'react-countdown';
+import {MarriageInfo} from './Marriage-Info'
+import './marriage-data.css';
 
 const Completionist = () => 
 <span> 
@@ -15,14 +17,15 @@ const renderer = ({days, hours, minutes, seconds, completed }) => {
     return <Completionist />;
   } else {
     // Render a countdown
-  return <span>{days} d {hours}:{minutes}:{seconds}</span>;
+  return <div className= "conuntdown-timer" > {days} d {hours}:{minutes}:{seconds}</div>;
   }
 };
 
 export const MarriageData = function MarriageData() {
     return (
-      <div>
+      <div >
       <Countdown
+
 
       //gmt time and calculate time accordingly to country.
       //here israel is 3 after. so i put 3 before gmt.
@@ -30,6 +33,8 @@ export const MarriageData = function MarriageData() {
       
       renderer={renderer}
     />
+    <MarriageInfo/>
+    
     </div>
       
     )
