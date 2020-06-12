@@ -21,6 +21,7 @@ const renderer = ({days, hours, minutes, seconds, completed }) => {
 
 export const MarriageData = function MarriageData() {
     return (
+      <div>
       <Countdown
 
       //gmt time and calculate time accordingly to country.
@@ -29,6 +30,7 @@ export const MarriageData = function MarriageData() {
       
       renderer={renderer}
     />
+    </div>
       
     )
 }
