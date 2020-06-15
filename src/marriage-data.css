@@ -2,9 +2,24 @@
 
 
 .conuntdown-timer {
-    text-align: center;
+    /* text-align: center;
     font-size: 250%;
     font-family: 'Tangerine', serif;
     text-shadow: 4px 4px 4px #aaa;
+    color: rgb(236, 214, 88); */
+
+    text-align: center;
+    font-size: 25vw;
+    font-family: 'Tangerine', serif;
+    text-shadow: 4px 4px 4px #aaa;
     color: rgb(236, 214, 88);
+    position: absolute;
+    bottom: 0;
+    top: 10vh;
+    margin-bottom: auto;
+    margin-top: auto;
+    right: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
   }

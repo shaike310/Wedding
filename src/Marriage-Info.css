@@ -1,24 +1,31 @@
 
-.text {
+  .text {
     font-family: Guttman Yad;
-    font-size: 250%;
+    font-size: 10vw;
     color: #279cbd;
     text-shadow: 1px 2px 2px rgba(252, 253, 253, 0.603);
     direction: rtl;
-    text-align: center;
+    position: absolute;
+    top: 0;
+    margin-top: auto;
+    right: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;    
   }
   
-  #urit-names {
+  #rotem-names {
     font-family: Guttman Yad;
-    font-size: 350%;
+    font-size: 18vw;
     direction: rtl;
-    text-align: center;
-    vertical-align: bottom;
     color: rgb(236, 214, 88);
     text-shadow: 4px 4px 4px rgb(112, 74, 74);
-  }
-  
-  .txt-comp {
-    margin-top: 5%;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: auto;
+    right: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
   }
   

@@ -8,7 +8,7 @@ export const MarriageInfo = function   MarriageInfo() {
             <div class="text">
                 י"ח אלול ~ 7.9
             </div>
-            <div id="urit-names">
+            <div id="rotem-names">
                 שי & רותם
              </div>
         </div>
