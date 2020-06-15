@@ -9,15 +9,13 @@
     color: rgb(236, 214, 88); */
 
     text-align: center;
-    font-size: 25vw;
+    font-size: 15vh;
     font-family: 'Tangerine', serif;
     text-shadow: 4px 4px 4px #aaa;
     color: rgb(236, 214, 88);
+    margin-top: 20%;
+    top: 0;
     position: absolute;
-    bottom: 0;
-    top: 10vh;
-    margin-bottom: auto;
-    margin-top: auto;
     right: 0;
     left: 0;
     margin-right: auto;
