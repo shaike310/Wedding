@@ -7,14 +7,11 @@ import { MarriageData } from './marriage-data'
 
 function App() {
   return (
-    <div className="App grid-container">
-
-       <div className={"grid-item main-image" }>
+    <div className="App">
+       <div className={"main-image" }>
         <MarriageData />
       </div>
-      <div className="grid-item">
-        <GalleryExpander />
-      </div>
+   
     </div>
   );
 }
