@@ -4,7 +4,7 @@ import {MarriageInfo} from './Marriage-Info'
 import './marriage-data.css';
 
 const Completionist = () => 
-<span> 
+<span className="text-after"> 
   <p>! שי ורותם נ ש ו א י ם </p>
   <p>בררררוור שהחתונה הייתה מהממת </p>
   <p> מאחל לנו אהבה ואושר במשך כל החיים </p>
@@ -17,7 +17,11 @@ const renderer = ({days, hours, minutes, seconds, completed }) => {
     return <Completionist />;
   } else {
     // Render a countdown
-  return <div className= "conuntdown-timer" > {days} d {hours}:{minutes}:{seconds}</div>;
+  return <div className= "conuntdown-timer" > {days} DAYS, {hours}:{minutes}:{seconds}
+  
+   <span className="conuntdown-text-before">
+     רק עוד
+     </span> </div> ;
   }
 };
 

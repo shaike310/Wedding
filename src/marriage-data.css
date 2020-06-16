@@ -1,6 +1,51 @@
 @import url('https://fonts.googleapis.com/css?family=Tangerine');
 
 
+
+@font-face{
+  font-family: "BANGERS";
+  src: url("./assets/BANGERS-REGULAR.TTF") format("truetype");
+}
+
+
+@font-face{
+  font-family: "ALPACA";
+  src: url("./assets/BN\ ALPACA.TTF") format("truetype");
+}
+
+.text-after{
+  text-align: center;
+  /* font-size: 15vh; */
+  /* font-family: Arial, Helvetica, sans-serif; */
+  /* text-shadow: 4px 4px 4px #aaa; */
+
+  
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 0.7px;
+  -webkit-text-stroke-color: black;
+  font-family: ALPACA;
+  /* font-weight: bolder; */
+  color: white;
+  margin-top: 20%;
+  top: 0;
+  position: absolute;
+  right: 0;
+  left: 0;
+  margin-right: auto;
+  margin-left: auto;
+
+}
+
+.conuntdown-text-before{
+     font-family: ALPACA;
+     /* font-family: BANGERS; */
+ margin-left: 10px;
+     -webkit-text-fill-color: black; /* Will override color (regardless of order) */
+     -webkit-text-stroke-width: 0.8px;
+     -webkit-text-stroke-color: white;
+     font-size: 5vh;
+}
+
 .conuntdown-timer {
     /* text-align: center;
     font-size: 250%;
@@ -8,12 +53,19 @@
     text-shadow: 4px 4px 4px #aaa;
     color: rgb(236, 214, 88); */
 
+    /* font-family: ALPACA; */
+    font-family: BANGERS;
+
+    -webkit-text-fill-color: black; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 0.8px;
+    -webkit-text-stroke-color: white;
+
     text-align: center;
-    font-size: 15vh;
-    font-family: 'Tangerine', serif;
+    font-size: 5vh;
+    /* font-family: 'Tangerine', serif;
     text-shadow: 4px 4px 4px #aaa;
-    color: rgb(236, 214, 88);
-    margin-top: 20%;
+    color: rgb(236, 214, 88); */
+    margin-top: 30%;
     top: 0;
     position: absolute;
     right: 0;
@@ -21,3 +73,5 @@
     margin-right: auto;
     margin-left: auto;
   }
+
+
