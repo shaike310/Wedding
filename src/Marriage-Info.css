@@ -13,6 +13,14 @@
   src: url("./assets/BN\ ALPACA.TTF") format("truetype");
 }
 
+
+
+@font-face{
+  font-family: "RUBIK";
+  src: url("./assets/Rubik-BoldItalic.ttf") format("truetype");
+}
+
+
   .text {
     /* font-family: Guttman Yad; */
 
@@ -34,9 +42,9 @@
   }
   
  .eng-date{
-  font-family: BANGERS;
+  font-family:RUBIK;
   position: relative;
-    bottom: 0px;;
+    bottom: 0px;
  }
 
   #rotem-names {
